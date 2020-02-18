@@ -22,6 +22,9 @@
 ## the Free Software Foundation, Inc., 51 Franklin Street, Fifth
 ## Floor, Boston, MA 02110-1301, USA.
 
+# Use bash from PATH
+SHELL := $(shell command -v bash 2>/dev/null)
+
 # Emacs invocation
 EMACS_COMMAND   := emacs
 
